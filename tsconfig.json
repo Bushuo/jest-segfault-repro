@@ -1,0 +1,30 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2020",
+    "paths": {},
+    "types": [""],
+    "typeRoots": ["src/app/typings", "node_modules"],
+    "lib": ["es2020", "dom"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "angularCompilerOptions": {
+    "enableIvy": true,
+    "fullTemplateTypeCheck": true,
+    "strictTemplates": true,
+    "strictInjectionParameters": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/app/typings/**/*.d.ts", "src/main.ts", "src/polyfills.ts"]
+}
